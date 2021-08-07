@@ -7,6 +7,7 @@
     "countEntriesInDirectory": "./bin/cli.js"
   },
   "scripts": {
+    "jt":"npm run ./bin/cli.js .",
     "test:unit": "jest --coverage",
     "test:onlychanged": "jest --onlyChanged --coverage",
     "lint": "standard",
